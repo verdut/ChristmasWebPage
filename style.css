@@ -1,0 +1,367 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+
+	/*background-color: #235E6F;*/
+	background-color:#3366cc;
+	width:100%;
+	height: 100%;
+	font-family: 'Mountains of Christmas';
+    margin-left: 0px;
+  
+}
+
+.main
+{
+	width: 100%;
+	height: 100%;
+}
+
+.content{
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    position:absolute;
+    /*top:30%;*/
+    margin-top:10%;
+    margin-bottom: auto;
+    overflow: hidden;
+	justify-content: space-evenly;
+	align-items: center;
+	width:100%;
+	/*max-width: 1200px;*/
+	height: 40%;
+	/*background-color: rgb(75,150,200);*/
+	background-color: #99ccff;
+	border-style: solid;
+	border-radius: 5px;
+	/*border-color: rgb(75,150,200);*/
+	border-color:  #99ccff;
+	
+		
+	
+}
+
+.secondary-content{
+    
+  
+	display: none;
+	flex-direction: row;
+	flex-wrap: wrap;
+    position:absolute;
+    margin-top:auto;
+    margin-bottom: auto;
+    overflow: hidden;
+    top:30%;
+	justify-content: space-evenly;
+	align-items: center;
+	width:100%;
+	height: auto;
+	background-color: #94C4FF;
+	border-style: solid;
+	border-radius: 5px;
+	
+	border-color: #94C4FF;
+	
+}
+
+
+ .globe:nth-child(2n+1) {
+
+ 	transform: rotate(-7deg);
+ }
+
+
+ .globe:nth-child(2n+0) {
+
+ 	transform: rotate(15deg);
+ }
+
+ .option{
+
+	/*background-color: rgb(212, 36, 38);*/
+	position: relative;
+	text-align: center;
+	border-style:solid;
+	border-radius: 100%;
+	margin:auto auto;
+	border-color: rgba(219,45,67,0.6);
+	/*background-color: rgba(245,98,77,0.6);*/
+    background-color: rgba(219,45,67,0.6);
+	/*material design for option*/
+	overflow: hidden;
+	border-width: 0;
+	outline: none;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, .6);
+    /*border-color: #F5624D;*/
+
+   
+}
+
+
+.secondary-option{
+
+    position:relative;
+    text-align:center;
+	border-style:solid;
+	border-radius: 100%;
+	border-color: rgba(245,98,77,1.0);
+	background-color: rgba(245,98,77,0.6);
+    margin: auto auto;
+	/*material design for option*/
+	overflow: hidden;
+	border-width: 0;
+	outline: none;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, .6);
+	align-self: center;
+
+}
+
+ 
+.content>article:nth-child(2n+0)
+{
+   background-color: rgba(15,138,95,0.6);
+   border-color: rgba(15,138,95,1.0);
+}
+
+.secondary-content>article:nth-child(2n+0)
+{
+   background-color: rgba(15,138,95,0.6);
+   border-color: rgba(15,138,95,1.0);
+}
+
+/*.content>article:nth-child(3n+0)
+{
+   background-color: #34A65F;
+   border-color: #34A65F;
+}*/
+
+.ring{
+
+	margin:0px;
+	padding:0px;
+	height: 20px;
+	width: 20px;
+	background-color:  #94C4FF;
+	border:2px solid rgb(211,211,211);
+	border-radius:45%;
+	position: relative;
+	left: 46.0%;
+	top:20%;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .6);
+
+}
+
+.hook{
+
+	height: 25px;
+	width:32px;
+	background-color:rgb(211,211,211);
+	position: relative;
+	left:44.0%;
+	top:30%;
+	border-radius:4px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, .6);
+}
+
+.main-title{ 
+
+    display:block;
+	position: absolute;
+	font-weight: bold;
+	font-size: 35px;
+	top:40%;
+	left:50%;
+    transform: translate(-50%,-50%); 
+    color:white;
+    text-shadow: 2px 2px black;
+    
+	
+}
+
+
+
+.imag {
+
+	display:block;
+	opacity:0.3;
+
+
+	
+
+}
+
+.imagine img{
+
+	transition: opacity .5s;
+}
+
+ #header-main
+ {
+ 	text-align: center;
+ 	color:white;
+ 	font-size: 30px;
+ 	
+ }
+
+ #back_btn button, #add_btn button{
+
+ 	top:15%;
+ 	margin-left: 5%;
+ 	margin-bottom: 5%;
+ 	padding: 0;
+    width : 10vw;
+    height: 4em;
+ 	overflow: hidden;
+
+ 	border-width:0;
+ 	outline: none;
+ 	border-radius: 2px;
+ 	box-shadow: 0 1px 4px rgba(0,0,0,.6);
+
+ 	background-color: #2ecc71;
+ 	color: #ecf0f1;
+ 	transition: background-color .3s;
+
+ }
+
+ #back_btn button:hover, #back_btn button:focus , #add_btn button:hover,#add_btn button:focus, #submit_btn button:hover,#submit_btn button:focus{
+  background-color: #27ae60;
+}
+
+.imagine img:hover, .imagine img:focus {
+  opacity:1.0;
+}
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 2; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: #99ccff;
+  margin: 15% auto; /* 15% from the top and centered */
+  border: 1px solid #888;
+  width:20%; /* Could be more or less, depending on screen size */
+  clear:both;
+  font-color:#333;
+}
+
+/* The Close Button */
+.close {
+  color: #333;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#submit_btn {
+
+	margin-left: 35%;
+	margin-right: 35%;
+	margin-bottom: 5%;
+	overflow: hidden;
+
+}
+
+#submit_btn button
+{   
+	padding-left: 5%;
+	padding-right: 5%;
+	height: 3em;
+	width: 100%;
+	/*margin: 2% 38%;*/
+	border-width:0;
+ 	outline: none;
+ 	border-radius: 2px;
+ 	box-shadow: 0 1px 4px rgba(0,0,0,.6);
+
+	background-color: #2ecc71;
+ 	color: #ecf0f1;
+ 	transition: background-color .3s;
+}
+
+#status {
+
+	font-color: #333;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 42%;
+}
+
+textarea {
+	vertical-align: top;
+	width:95%;
+	clear:both;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+input{
+	width: 95%;
+	clear:both;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+label{
+	margin-left: 3%;
+}
+
+@media only screen and (max-width: 768px) {
+  
+   .content{
+   	flex-wrap: nowrap;
+     flex-direction: column;
+   }
+
+   .secondary-content{
+   	flex-wrap: nowrap;
+   	flex-direction: column;
+
+   }
+
+   .secondary-option{
+   	flex-basis: auto;
+   	 flex-grow: 5;
+   }
+
+}
+
+@font-face {
+  font-family: 'ChristmasFont';
+  font-style: normal;
+  src: url('Assets/Fonts/mountainsofchristmas-webfont.woff') format('woff'),/* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('Assets/Fonts/mountainsofchristmas-webfont.woff2') format('woff2')
+       url('Assets/Fonts/mountainsofchristmas-webfont.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
+
+@font-face {
+  font-family: 'Mountains of Christmas';
+  font-style: normal;
+  src: local("Mountains of Christmas"), local("MountainsofChristmas-Regular"), url(https://fonts.gstatic.com/s/mountainsofchristmas/v8/dVGBFPwd6G44IWDbQtPewylJhLDHyIrT3I5b5eGTHmw.woff2) format("woff2"); }
+
+  

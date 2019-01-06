@@ -1,0 +1,108 @@
+{
+  "retete": [
+    {
+      "id": 1,
+      "name": "Christmas Reindeer Cupcakes",
+      "description": "Cute reindeer cupcakes for Christmas that the kids will absolutely adore. These cupcakes are great anytime of year, however, simply skip the reindeer decorating! You can get the kids to help you decorate for loads of family fun.",
+      "ingredients": [
+        "9 tablespoons unsalted butter",
+        "3/4 cup white sugar",
+        "1 teaspoon vanilla extract",
+        "2 eggs",
+        "1 1/2 cups sifted self-rising flour",
+        "1/2 cup milk"
+      ],
+      "recipe_steps": [
+        "Preheat oven to 375 degrees F (190 degrees C). Grease a 12-cup muffin tin or line cups with paper liners.",
+        "Combine 9 tablespoons butter, white sugar, and vanilla extract in a large bowl; beat with an electric mixer until smooth and creamy. Add eggs one at a time and beat until well combined. Fold in half the flour and 1/4 cup milk and stir to combine. Repeat with remaining flour and milk. Spoon batter into the prepared muffin cups, filling each 3/4 full.",
+        "Bake in the preheated oven until a toothpick inserted in the center comes out clean, about 18 minutes.",
+        "Remove tin from oven and cool on a wire rack for 5 minutes. Remove cupcakes from the tin and cool completely on a wire rack before decorating, about 1 hour.",
+        "Combine confections' sugar, 1 tablespoon butter, and 1 tablespoon milk in a large bowl; beat with an electric mixer until smooth and creamy. Thin frosting with a little milk or water, if necessary. Add food coloring and stir until frosting is uniformly brown. Add more food coloring, 1 drop at a time, until frosting is the color you like.",
+        "Spread a thin layer of frosting on top of each cupcake. Break vanilla cookies in half. Place a cookie half on each cupcake as a mouth. Use a bit of frosting to 'glue' a jelly bean onto the cookie for Rudolph's red nose. Stick 2 candy eyeballs into each cupcake. Break off a piece from each pretzel so they look like antlers and stick 2 into the top of each cupcakes. Shape chewy candies into ears and stick 2 into the sides of each cupcake."
+      ],
+      "srcL": "Data/reteta1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Amazingly Good Eggnog",
+      "description": "It's taken me several years to perfect this recipe. Now everyone asks, 'When are you making the eggnog?!' This uses cooked eggs for safety, and you can use more or less rum to taste. It's a bit of work to make, but well worth it. You'll never buy store-bought eggnog again! Enjoy!",
+      "ingredients": [
+        "4 cups milk",
+        "5 whole cloves",
+        "1/2 teaspoon vanilla extract",
+        "1 teaspoon ground cinnamon",
+        "12 egg yolks",
+        "1 1/2 cups sugar",
+        "2 1/2 cups light rum",
+        "4 cups light cream",
+        "2 teaspoons vanilla extract",
+        "1/2 teaspoon ground nutmeg"
+      ],
+      "recipe_steps": [
+        "Combine milk, cloves, 1/2 teaspoon vanilla, and cinnamon in a saucepan, and heat over lowest setting for 5 minutes. Slowly bring milk mixture to a boil.",
+        "In a large bowl, combine egg yolks and sugar. Whisk together until fluffy. Whisk hot milk mixture slowly into the eggs. Pour mixture into saucepan. Cook over medium heat, stirring constantly for 3 minutes, or until thick. Do not allow mixture to boil. Strain to remove cloves, and let cool for about an hour.",
+        "Stir in rum, cream, 2 teaspoon vanilla, and nutmeg. Refrigerate overnight before serving."
+      ],
+      "srcL": "Data/reteta2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Curcan umplut",
+      "description": "Cel mai bun curcan umplut",
+      "ingredients": [
+        "curcan",
+        "condimente"
+      ],
+      "recipe_steps": [
+        "Se amesteca toate ingredientele",
+        "Se pune la cuptor"
+      ],
+      "srcL": "Data/reteta3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Rata prajita",
+      "description": "Rata de Craciun",
+      "ingredients": [
+        "rata",
+        "paine",
+        "ulei"
+      ],
+      "recipe_steps": [
+        "se prajeste rata"
+      ],
+      "srcL": "Data/reteta1.jpg"
+    },
+    {
+      "name": "Apple pie",
+      "description": "pie",
+      "ingredients": [
+        "apples",
+        "sugat"
+      ],
+      "recipe_steps": [
+        "mix",
+        "bake"
+      ],
+      "srcL": "Data/reteta1.jpg",
+      "id": 5
+    }
+  ],
+  "handmade": [
+    {
+      "id": 1,
+      "name": "Wood Noel Ornament",
+      "materials": [
+        "small wood slices",
+        "wood burning tool",
+        "twinw",
+        "hot glue gun"
+      ],
+      "stept": [
+        "First, using your wood burning pen, write each of the letters on your wood slices. Then making sure you keep them in the correct order, flip them upside down. Cut a piece of twine long enough to go across the wood slices and have a loop on each end",
+        "Just a little tip that I didn’t realize until after – these like to twist forward, so try and keep the twine as close to the top of the wood slices as possible. Then hot glue in place making sure to give yourself the loops on each end for hanging.",
+        "Now you can decorate your tree with your new wood slice noel ornament!"
+      ]
+    }
+  ]
+}

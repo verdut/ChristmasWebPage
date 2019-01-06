@@ -1,0 +1,132 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+	margin: 0;
+	padding: 0;
+  box-sizing: inherit;
+}
+
+body{
+
+	/*background-color: #235E6F;*/
+	background-color:#3366cc;
+	width:100%;
+	height: 100%;
+	font-family: 'Mountains of Christmas';
+    margin-left: 0px;
+  
+}
+
+.main
+{
+	width: 100%;
+	height: 100%;
+}
+
+ #header-main
+ {
+ 	text-align: center;
+ 	color:white;
+ 	font-size: 30px;
+ 	
+ }
+
+ #back_btn button{
+
+ 	top:15%;
+ 	margin-left: 2em;
+ 	padding: 0;
+    width : 11%;
+    height: 4em;
+ 	overflow: hidden;
+
+ 	border-width:0;
+ 	outline: none;
+ 	border-radius: 2px;
+ 	box-shadow: 0 1px 4px rgba(0,0,0,.6);
+
+ 	background-color: #2ecc71;
+ 	color: #ecf0f1;
+ 	transition: background-color .3s;
+
+ }
+
+ #back_btn button:hover, #back_btn button:focus {
+  background-color: #27ae60;
+}
+
+.recipe {
+  
+  padding : 1% 5%;
+  border-radius: 30px;
+  background:#99ccff;
+  margin: auto 3vw;
+  margin-top: 5vh; 
+  overflow: hidden;
+  position:relative;
+ 
+}
+
+ #imag {
+
+ 	border-radius: 20px;
+ 	
+ }
+
+ .image{
+ 	
+ 	display: inline-block;
+ 	margin-top: 3%;
+ 	margin-bottom: 3%;
+ 	margin-right: 2%;
+
+ }
+
+ .ingredients {
+
+ 	
+ 	display:block;
+ 	float: right;
+ 	margin-left:2%;
+ 	margin-right: 40%;
+ 	margin-top:8vh;
+ 	margin-bottom: 4vh;
+ 	
+ }
+
+ .ingredients li 
+ {
+ 	margin-bottom: 10%;
+ 	font-size: 1.3em;
+ 	font-weight: bold;
+ }
+
+ .steps li
+ {
+ 	margin-bottom: 1.3%;
+    font-size:1.4em;
+    color: #333333;
+ }
+
+ ul {
+    -moz-column-count: 2;
+    -moz-column-gap: 3vw;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 3vw;
+    column-count: 2;
+    column-gap: 3vw;
+}
+
+@font-face {
+  font-family: 'ChristmasFont';
+  font-style: normal;
+  src: url('Assets/Fonts/mountainsofchristmas-webfont.woff') format('woff'),/* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('Assets/Fonts/mountainsofchristmas-webfont.woff2') format('woff2')
+       url('Assets/Fonts/mountainsofchristmas-webfont.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
+
+@font-face {
+  font-family: 'Mountains of Christmas';
+  font-style: normal;
+  src: local("Mountains of Christmas"), local("MountainsofChristmas-Regular"), url(https://fonts.gstatic.com/s/mountainsofchristmas/v8/dVGBFPwd6G44IWDbQtPewylJhLDHyIrT3I5b5eGTHmw.woff2) format("woff2"); }
